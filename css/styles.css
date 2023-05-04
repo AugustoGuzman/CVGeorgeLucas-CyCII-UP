@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Hind:wght@300;400;500;600;700&display=swap');
+
+.body {
+    
+    background-color: lightgray; font-family:'Hind', sans-serif;
+}
+
+.header {background-color: rgb(125, 125, 125);
+        display:flex;
+        width: 100%;
+        flex-direction: row;
+        height: 40vh;
+        justify-content: center;
+    }
+
+
+.foto {width: 50%;
+    margin-top: 30px;
+    
+    
+    
+}
+
+.info1 {width: 50%;
+    margin-top: 30px;
+    
+}
+
+
+.info1 .para1 {
+    font-weight:700; 
+    color: rgb(173, 173, 173);
+    align-items: center;
+    margin-top: 5px;
+}
+
+.info1 h2 {
+    margin-top: 20px;
+}
+
+.info1 .para2 {
+    color: white;
+    margin-top: 5px;
+}
+
+.section h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.section .resumen {
+    margin-top: 20px; 
+    text-align: center;
+    
+}
+
+.section .estudios h1 {text-align: left;}
+
+.section .estudios p {margin-top: 20px;}
+
+.section .estudios h2 {margin-top: 20px;}
+
+.datos1 {display:flex;
+        width:100%;
+        justify-content: space-evenly;
+                   
+}
+
+.datos1 p {margin-top: 10px;}
+
+
+.experiencia {
+    width:50%
+}
+
+.distinciones{
+    width: 50%;
+}
+
+.datos2 {display:flex;
+        width:100%;
+        justify-content: space-evenly;    
+    }
+
+.datos2 p {
+    margin-top: 10px;
+}
+
+
+.datos3 {display: flex;width: 100%;}
+
+.director {width: 50%;}
+
+.datos3 p {margin-top: 10px;}

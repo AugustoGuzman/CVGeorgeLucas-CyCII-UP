@@ -15,22 +15,24 @@
         display:flex;
         width: 100%;
         flex-direction: row;
-        height: 40vh;
         justify-content: center;
+        padding-bottom: 20px;
     }
 
 
 .foto {width: 50%;
     margin-top: 30px;
     transition-property: all;
-    transition-duration: 1s
+    transition-duration: 1s;
+    text-align: right;
+    padding-right:20px;
     
 }
 
 .foto:hover{opacity: 0.5;}
 
 .foto img:hover{
-    transform:scale(2);
+    transform:scale(1.1);
     border-radius: 20px;
 }
 
@@ -105,3 +107,4 @@
 .director {width: 50%;}
 
 .datos3 p {margin-top: 10px;}
+

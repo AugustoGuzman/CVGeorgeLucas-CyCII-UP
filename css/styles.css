@@ -27,8 +27,9 @@
     
 }
 
+.foto:hover{opacity: 0.5;}
+
 .foto img:hover{
-    opacity: 0.5%;
     transform:scale(2);
 }
 

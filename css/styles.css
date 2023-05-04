@@ -65,7 +65,11 @@
     display:flex;
     width: 100%;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .resumen {width: 100%;
-text-align: center;}
+text-align: center;
+background: rgb(185, 173, 173);
+padding: 10px;
+}

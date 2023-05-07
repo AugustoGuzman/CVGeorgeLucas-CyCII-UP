@@ -25,7 +25,8 @@
 
 .header h2 {font-size: 30px}
 
-.header .info1 a {color:black}
+.header .info1 a {color:black;font-size: 20px;}
+.header .info1 p {font-size:25px}
 
 .foto {width: 50%;
     margin-top: 30px;

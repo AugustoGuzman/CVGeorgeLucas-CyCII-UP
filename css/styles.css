@@ -127,6 +127,8 @@ padding: 10px;
 
 .experiencia:hover{
     transform:scale(1.02);
+    background-color:bisque;
+    border-color: black;
     
 }
 
@@ -139,6 +141,8 @@ padding: 10px;
 
  .distinciones:hover{
     transform:scale(1.02);
+    background-color:bisque;
+    border-color: black;
     
 }
 
@@ -152,6 +156,8 @@ padding: 10px;
 
  .productor:hover{
     transform:scale(1.02);
+    background-color:bisque;
+    border-color: black;
     
 }
 
@@ -165,6 +171,8 @@ padding: 10px;
 
  .director:hover{
     transform:scale(1.02);
+    background-color:bisque;
+    border-color: black;
     
 }
 
@@ -179,6 +187,8 @@ padding: 10px;
 
  .habilidades:hover{
     transform:scale(1.02);
+    background-color:bisque;
+    border-color: black;
    
 }
 
@@ -191,6 +201,8 @@ padding: 10px;
 
 .idiomas:hover{
     transform:scale(1.02);
+    background-color:bisque;
+    border-color: black;
     
 }
 

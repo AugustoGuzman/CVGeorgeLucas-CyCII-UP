@@ -72,9 +72,12 @@
     width: 100%;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     
 }
+
+.contenedor p {font-size: 20px;}
+.contenedor h1 {font-size: 30px;}
 
 .resumen {width: 100%;
 text-align: center;
@@ -84,6 +87,33 @@ transition-property: all;
 }
 
 .resumen:hover{
-    transform:scale(1.1);
+    transform:scale(1.02);
     border-radius: 20px;
 }
+
+.estudios {
+    width:100% ;
+    text-align: center;
+}
+
+.experiencia {
+    width: 50%;
+    text-align: center;
+}
+
+.distinciones{width: 50%;text-align: center;
+ }
+
+ .productor {
+    width:50%;text-align: center;
+ }
+
+ .director {
+    width:50%;text-align: center;
+ }
+
+ .habilidades {
+    width:50%;text-align: center;
+ }
+
+ .idiomas {width: 50%;text-align: center;}

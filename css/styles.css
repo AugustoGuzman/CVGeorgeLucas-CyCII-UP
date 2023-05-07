@@ -212,6 +212,11 @@ padding-bottom: 20px;
     
 }
 
+
+.experiencia, .distinciones, .productor, .director, .habilidades, .idiomas {
+    padding-bottom: 20px;
+}
+
  .footer {
     display:flex;
     width: 100%;
@@ -219,7 +224,11 @@ padding-bottom: 20px;
     background-color:dimgray;
     justify-content: space-around;
     margin-top: 30px;
+    color: white;
  }
+
+
+
 
  .hecho {
     width: 50%; text-align: center;

@@ -117,7 +117,7 @@ padding: 10px;
 }
 
 .experiencia {
-    width: 50%;
+    width: 49%;
     text-align: center;
     border-style: solid;
     border-radius: 20px;
@@ -134,7 +134,7 @@ padding: 10px;
     
 }
 
-.distinciones{width: 50%;text-align: center;
+.distinciones{width: 49%;text-align: center;
     border-style: solid;
     border-radius: 20px;
     margin-top: 10px;
@@ -150,7 +150,7 @@ padding: 10px;
 }
 
  .productor {
-    width:50%;text-align: center;
+    width:49%;text-align: center;
     border-style: solid;
     border-radius: 20px;
     margin-top: 10px;
@@ -166,7 +166,7 @@ padding: 10px;
 }
 
  .director {
-    width:50%;text-align: center;
+    width:49%;text-align: center;
     border-style: solid;
     border-radius: 20px;
     margin-top: 10px;
@@ -183,7 +183,7 @@ padding: 10px;
 
 
  .habilidades {
-    width:50%;text-align: center;
+    width:49%;text-align: center;
     border-style: solid;
     border-radius: 20px;
     margin-top: 10px;
@@ -198,7 +198,7 @@ padding: 10px;
    
 }
 
- .idiomas {width: 50%;text-align: center;
+ .idiomas {width: 49%;text-align: center;
     border-style: solid;
     border-radius: 20px;
     margin-top: 10px;
@@ -252,3 +252,4 @@ padding: 10px;
     background: white;
     color: #ff3131;
 }
+

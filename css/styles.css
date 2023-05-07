@@ -92,9 +92,8 @@
 .resumen {width: 100%;
 text-align: center;
 background: rgb(185, 173, 173);
-padding: 10px;
 transition-property: all;
-padding: 10px;
+padding-bottom: 20px;
 }
 
 .resumen:hover{
@@ -106,8 +105,8 @@ padding: 10px;
     width:100% ;
     text-align: center;
     background-color:azure ;
-    padding: 10px;
     margin-top: 10px;
+    padding-bottom: 20px;
    
 }
 
@@ -253,3 +252,35 @@ padding: 10px;
     color: #ff3131;
 }
 
+@media screen and (max-width: 768px) {
+   
+
+    .header {flex-direction: column;
+            justify-content: center;
+    }
+
+    .foto {
+        width: 100%;
+        text-align: center;
+    }
+
+    .info1{
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .contenedor {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .experiencia, .distinciones, .productor, .director, .habilidades, .idiomas {
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+
+}

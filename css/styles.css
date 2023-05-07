@@ -85,10 +85,9 @@
 }
 
 .contenedor p {font-size: 21px; margin-top: 15px;}
-.contenedor h1 {font-size: 40px;margin-top:15px}
+.contenedor h1 {font-size: 40px;margin-top:15px;}
 .contenedor h2 {
-    font-size: 30px ; margin-top:15px
-}
+    font-size: 30px ; margin-top:15px;}
 
 .resumen {width: 100%;
 text-align: center;
@@ -109,6 +108,7 @@ padding: 10px;
     background-color:azure ;
     padding: 10px;
     margin-top: 10px;
+   
 }
 
 .estudios:hover{
@@ -129,6 +129,8 @@ padding: 10px;
     transform:scale(1.02);
     background-color:bisque;
     border-color: black;
+    color:slategray
+    
     
 }
 
@@ -143,6 +145,7 @@ padding: 10px;
     transform:scale(1.02);
     background-color:bisque;
     border-color: black;
+    color:slategray
     
 }
 
@@ -158,6 +161,7 @@ padding: 10px;
     transform:scale(1.02);
     background-color:bisque;
     border-color: black;
+    color:slategray
     
 }
 
@@ -173,6 +177,7 @@ padding: 10px;
     transform:scale(1.02);
     background-color:bisque;
     border-color: black;
+    color:slategray
     
 }
 
@@ -189,6 +194,7 @@ padding: 10px;
     transform:scale(1.02);
     background-color:bisque;
     border-color: black;
+    color:slategray
    
 }
 
@@ -203,6 +209,7 @@ padding: 10px;
     transform:scale(1.02);
     background-color:bisque;
     border-color: black;
+    color:slategray;
     
 }
 

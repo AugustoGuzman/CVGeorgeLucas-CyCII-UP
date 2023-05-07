@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Hind:wght@300;400;500;600;700&display=swap');
 
 .body {
@@ -17,6 +18,7 @@
         flex-direction: row;
         justify-content: center;
         padding-bottom: 20px;
+        
 
     }
 
@@ -76,17 +78,24 @@
     justify-content:space-evenly;
     transition-property: all;
     transition-duration: 1s;
+    overflow: hidden;
+    padding-bottom: 15px;
+    
     
 }
 
-.contenedor p {font-size: 20px;}
-.contenedor h1 {font-size: 30px;}
+.contenedor p {font-size: 21px; margin-top: 15px;}
+.contenedor h1 {font-size: 40px;margin-top:15px}
+.contenedor h2 {
+    font-size: 30px ; margin-top:15px
+}
 
 .resumen {width: 100%;
 text-align: center;
 background: rgb(185, 173, 173);
 padding: 10px;
 transition-property: all;
+padding: 10px;
 }
 
 .resumen:hover{
@@ -97,29 +106,93 @@ transition-property: all;
 .estudios {
     width:100% ;
     text-align: center;
+    background-color:azure ;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.estudios:hover{
+    transform:scale(1.02);
+    border-radius: 20px;
 }
 
 .experiencia {
     width: 50%;
     text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    margin-top: 10px;
+    border-color:darkgrey;
+}
+
+.experiencia:hover{
+    transform:scale(1.02);
+    
 }
 
 .distinciones{width: 50%;text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    margin-top: 10px;
+    border-color:darkgrey;
  }
+
+ .distinciones:hover{
+    transform:scale(1.02);
+    
+}
 
  .productor {
     width:50%;text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    margin-top: 10px;
+    border-color:darkgrey;
  }
+
+ .productor:hover{
+    transform:scale(1.02);
+    
+}
 
  .director {
     width:50%;text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    margin-top: 10px;
+    border-color:darkgrey;
  }
+
+ .director:hover{
+    transform:scale(1.02);
+    
+}
+
 
  .habilidades {
     width:50%;text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    margin-top: 10px;
+    border-color:darkgrey;
  }
 
- .idiomas {width: 50%;text-align: center;}
+ .habilidades:hover{
+    transform:scale(1.02);
+   
+}
+
+ .idiomas {width: 50%;text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    margin-top: 10px;
+    border-color:darkgrey;
+}
+
+.idiomas:hover{
+    transform:scale(1.02);
+    
+}
 
  .footer {
     display:flex;

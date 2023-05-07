@@ -49,27 +49,41 @@
     font-weight:700; 
     color: rgb(173, 173, 173);
     align-items: center;
-    margin-top: 5px;
+    margin-top: 10px;
 }
+
+.info1 h1 {font-size: 50px;}
 
 .info1 h2 {
     margin-top: 20px;
+    font-size: 30px;
 }
 
 .info1 .para2 {
-    color: white;
-    margin-top: 5px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    
 }
+
+
 
 .contenedor{
     display:flex;
     width: 100%;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-evenly;
+    
 }
 
 .resumen {width: 100%;
 text-align: center;
 background: rgb(185, 173, 173);
 padding: 10px;
+transition-property: all;
+}
+
+.resumen:hover{
+    transform:scale(1.1);
+    border-radius: 20px;
 }

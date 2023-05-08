@@ -265,7 +265,7 @@ padding-bottom: 20px;
     color: #ff3131;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width:0px) and (max-width:990px) {
    
 
     .header {flex-direction: column;
@@ -296,4 +296,12 @@ padding-bottom: 20px;
 
 
 
+}
+
+@media screen and (min-width:991px) and (max-width:1200px) {
+    
+}
+
+@media screen and (min-width:1201px) {
+   
 }

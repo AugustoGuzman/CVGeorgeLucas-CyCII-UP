@@ -94,11 +94,12 @@
 .contenedor h2 {
     font-size: 30px ; margin-top:15px;}
 
-.resumen {width: 100%;
+.resumen {width: 95%;
 text-align: center;
 background: rgb(185, 173, 173);
 transition-duration: 1s;
-padding-bottom: 20px;
+padding:20px;
+margin:20px;
 }
 
 .resumen:hover{
@@ -107,10 +108,11 @@ padding-bottom: 20px;
 }
 
 .estudios {
-    width:100% ;
+    width:95% ;
     text-align: center;
     background-color:rgb(159, 159, 159) ;
-    padding-bottom: 20px;
+    padding: 20px;
+    margin:20px;
     transition-duration: 1s;
    
 }
@@ -121,7 +123,7 @@ padding-bottom: 20px;
 }
 
 .experiencia {
-    width: 49%;
+    width: 48%;
     text-align: center;
     border-style: solid;
     border-radius: 20px;
@@ -139,7 +141,7 @@ padding-bottom: 20px;
     
 }
 
-.distinciones{width: 49%;text-align: center;
+.distinciones{width: 48%;text-align: center;
     border-style: solid;
     border-radius: 20px;
     margin-top: 10px;
@@ -156,7 +158,7 @@ padding-bottom: 20px;
 }
 
  .productor {
-    width:49%;text-align: center;
+    width:48%;text-align: center;
     border-style: solid;
     border-radius: 20px;
     margin-top: 10px;
@@ -173,7 +175,7 @@ padding-bottom: 20px;
 }
 
  .director {
-    width:49%;text-align: center;
+    width:48%;text-align: center;
     border-style: solid;
     border-radius: 20px;
     margin-top: 10px;
@@ -191,7 +193,7 @@ padding-bottom: 20px;
 
 
  .habilidades {
-    width:49%;text-align: center;
+    width:48%;text-align: center;
     border-style: solid;
     border-radius: 20px;
     margin-top: 10px;
@@ -207,7 +209,7 @@ padding-bottom: 20px;
    
 }
 
- .idiomas {width: 49%;text-align: center;
+ .idiomas {width: 48%;text-align: center;
     border-style: solid;
     border-radius: 20px;
     margin-top: 10px;
@@ -225,7 +227,9 @@ padding-bottom: 20px;
 
 
 .experiencia, .distinciones, .productor, .director, .habilidades, .idiomas {
-    padding-bottom: 20px;
+    padding:20px;
+    margin:10px;
+    
 }
 
  .footer {
@@ -295,7 +299,7 @@ padding-bottom: 20px;
     }
 
     .contenedor {
-        flex-direction: column;
+        
         justify-content: space-evenly;
     }
 

@@ -14,16 +14,23 @@
 }
 
 .header {background-color: rgb(125, 125, 125);
-        display:flex;
-        width: 100%;
-        flex-direction: row;
-        justify-content: center;
-        padding-bottom: 20px;
-        transition-property: all;
-        transition-duration: 1s;
-        
+    display:flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 20px;
+    transition-property: all;
+    transition-duration: 1s;
+    overflow: hidden
+}
 
-    }
+.animacion {
+    display:flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+   
+}
 
 .header h2 {font-size: 30px}
 

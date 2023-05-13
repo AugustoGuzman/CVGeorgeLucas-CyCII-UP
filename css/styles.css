@@ -97,12 +97,13 @@
 .contenedor h2 {
     font-size: 30px ; margin-top:15px;}
 
-.resumen {width: 95%;
+.resumen {width: 96%;
 text-align: center;
 background: rgb(185, 173, 173);
 transition-duration: 1s;
 padding:20px;
-margin:20px;
+padding-top:0;
+margin:20px
 }
 
 .resumen:hover{
@@ -111,10 +112,11 @@ margin:20px;
 }
 
 .estudios {
-    width:95% ;
+    width: 96%;
     text-align: center;
     background-color:rgb(159, 159, 159) ;
     padding: 20px;
+    padding-top:0;
     margin:20px;
     transition-duration: 1s;
    
@@ -274,13 +276,13 @@ margin:20px;
   }
 
   .fa-twitter {
-    background: #55ACEE;
+    background: gray;
     color: white;
 }
 
 .fa-youtube {
-    background: white;
-    color: #ff3131;
+    background: gray;
+    color: white;
 }
 
 @media screen and (min-width:0px) and (max-width:990px) {

@@ -311,8 +311,15 @@ margin:20px;
         text-align: center;
     }
 
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+    }
 
-
+        .hecho, .iconos {
+            width:100%;
+            text-align: center;
+        }
 
 }
 
